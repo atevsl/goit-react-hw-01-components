@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  padding: 20px;
+  border: 1px solid var(--dark-text-color);
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.statusOnline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+.statusOffline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+.avatar {
+}
+.name {
+  margin: 0;
+}

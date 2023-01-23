@@ -1,0 +1,23 @@
+.statistics {
+}
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+.stat_list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.label {
+}
+.percentage {
+}

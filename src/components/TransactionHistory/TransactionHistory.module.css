@@ -1,0 +1,11 @@
+.transaction_history {
+  border: 1px solid var(--dark-text-color);
+}
+.transaction_history th {
+  background-color: var(--light-text-color);
+  padding: 10px;
+}
+.transaction_history td {
+  border: 1px solid var(--dark-text-color);
+  padding: 10px;
+}
