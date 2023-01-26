@@ -5,6 +5,6 @@ export const FriendList = ({ friends, children }) => {
   return <ul className={css.friend_list}>{children}</ul>;
 };
 
-FriendList.PropType = {
+FriendList.propType = {
   friends: PropType.array.isRequired,
 };
