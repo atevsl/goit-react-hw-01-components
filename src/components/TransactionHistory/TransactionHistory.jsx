@@ -1,4 +1,4 @@
-import PropType from 'prop-types';
+import PropTypes from 'prop-types';
 import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items, children }) => {
@@ -16,6 +16,6 @@ export const TransactionHistory = ({ items, children }) => {
   );
 };
 
-TransactionHistory.propType = {
-  items: PropType.array.isRequired,
+TransactionHistory.propTypes = {
+  items: propTypes.array.isRequired,
 };
