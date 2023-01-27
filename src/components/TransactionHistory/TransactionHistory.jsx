@@ -17,5 +17,5 @@ export const TransactionHistory = ({ items, children }) => {
 };
 
 TransactionHistory.propTypes = {
-  items: propTypes.array.isRequired,
+  items: PropTypes.array.isRequired,
 };
