@@ -4,4 +4,12 @@
   --light-text-color: #eae8e8;
   --dark-text-color: #545454;
   --accent-text-color: #ff6b08;
+
+  --bg: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(214, 222, 223, 1) 0%,
+    rgba(110, 206, 238, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
