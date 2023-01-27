@@ -14,8 +14,10 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
-        justifyContent: 'space-evenly',
-        alignItems: 'flex-start',
+        flexDirection: 'column',
+        gap: 20,
+        justifyContent: 'flex-start',
+        alignItems: 'center',
         fontSize: 40,
         color: '#010101',
       }}
